@@ -1,3 +1,3 @@
-# Strapi application
+# Gaya Backend API
 
-A quick description of your strapi application
+A develop application for backend API - Gaya Ceramic & Design
