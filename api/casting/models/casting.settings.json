@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "castings",
+  "info": {
+    "name": "casting"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "code": {
+      "type": "string",
+      "unique": true
+    },
+    "name": {
+      "type": "string"
+    },
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "notes": {
+      "type": "text"
+    },
+    "product": {
+      "via": "castings",
+      "model": "products"
+    }
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "name": "products",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "code": {
+      "type": "string",
+      "unique": true
+    },
+    "dateDraw": {
+      "type": "date"
+    },
+    "techDraw": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "photo": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "deparment": {
+      "type": "string",
+      "unique": true
+    },
+    "infoSize": {
+      "type": "string"
+    },
+    "material": {
+      "type": "string"
+    },
+    "buildTech": {
+      "type": "string"
+    },
+    "buildNotes": {
+      "type": "text"
+    },
+    "rim": {
+      "type": "string"
+    },
+    "estruderNotes": {
+      "type": "text"
+    },
+    "toolNotes": {
+      "type": "text"
+    },
+    "engobeNotes": {
+      "type": "text"
+    },
+    "bisqTemp": {
+      "type": "string"
+    },
+    "stainOxideNotes": {
+      "type": "text"
+    },
+    "glazeUpdateProduksiNotes": {
+      "type": "text"
+    },
+    "firingType": {
+      "type": "string"
+    },
+    "bodyKg": {
+      "type": "decimal"
+    },
+    "lidKg": {
+      "type": "decimal"
+    },
+    "spoutKg": {
+      "type": "decimal"
+    },
+    "handleKg": {
+      "type": "decimal"
+    },
+    "baseKg": {
+      "type": "decimal"
+    },
+    "category": {
+      "model": "category"
+    },
+    "clients": {
+      "collection": "client",
+      "via": "products",
+      "dominant": true
+    },
+    "clays": {
+      "collection": "clay",
+      "via": "product"
+    },
+    "videos": {
+      "via": "products",
+      "collection": "videos",
+      "dominant": true
+    },
+    "galazeDataSampleNotes": {
+      "type": "text"
+    },
+    "ovenCode": {
+      "type": "enumeration",
+      "enum": [
+        "K1",
+        "K2",
+        "K3",
+        "K4",
+        "K5",
+        "K6"
+      ]
+    },
+    "ovenPosisi": {
+      "type": "string"
+    },
+    "ovenCone": {
+      "type": "string"
+    },
+    "firingNotes": {
+      "type": "text"
+    },
+    "engobes": {
+      "collection": "engobe",
+      "via": "product"
+    },
+    "estruders": {
+      "collection": "estruder",
+      "via": "product"
+    },
+    "tools": {
+      "collection": "tool",
+      "via": "product"
+    },
+    "molds": {
+      "collection": "mold",
+      "via": "product"
+    },
+    "castings": {
+      "collection": "casting",
+      "via": "product"
+    },
+    "material_supports": {
+      "collection": "material-support",
+      "via": "product"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "material_supports",
+  "info": {
+    "name": "materialSupport"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "code": {
+      "type": "string",
+      "unique": true
+    },
+    "name": {
+      "type": "string"
+    },
+    "descriptions": {
+      "type": "string"
+    },
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "notes": {
+      "type": "text"
+    },
+    "qty": {
+      "type": "decimal"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "product": {
+      "via": "material_supports",
+      "model": "products"
+    }
+  }
+}

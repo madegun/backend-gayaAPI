@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/engobes",
+      "handler": "engobe.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/engobes/count",
+      "handler": "engobe.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/engobes/:id",
+      "handler": "engobe.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/engobes",
+      "handler": "engobe.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/engobes/:id",
+      "handler": "engobe.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/engobes/:id",
+      "handler": "engobe.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

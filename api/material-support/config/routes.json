@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/material-supports",
+      "handler": "material-support.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/material-supports/count",
+      "handler": "material-support.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/material-supports/:id",
+      "handler": "material-support.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/material-supports",
+      "handler": "material-support.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/material-supports/:id",
+      "handler": "material-support.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/material-supports/:id",
+      "handler": "material-support.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

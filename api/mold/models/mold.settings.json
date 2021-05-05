@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "molds",
+  "info": {
+    "name": "mold"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "code": {
+      "type": "string",
+      "unique": true
+    },
+    "name": {
+      "type": "string"
+    },
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "notes": {
+      "type": "string"
+    },
+    "product": {
+      "via": "molds",
+      "model": "products"
+    }
+  }
+}

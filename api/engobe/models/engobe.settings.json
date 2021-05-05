@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "engobes",
+  "info": {
+    "name": "engobe"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "code": {
+      "type": "string",
+      "unique": true
+    },
+    "name": {
+      "type": "string"
+    },
+    "recipes": {
+      "type": "text"
+    },
+    "notes": {
+      "type": "text"
+    },
+    "histories": {
+      "type": "text"
+    },
+    "product": {
+      "via": "engobes",
+      "model": "products"
+    }
+  }
+}
