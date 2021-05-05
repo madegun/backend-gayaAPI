@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "clays",
   "info": {
-    "name": "clay"
+    "name": "clay",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -19,7 +20,8 @@
       "type": "string"
     },
     "recipes": {
-      "type": "text"
+      "type": "text",
+      "private": true
     },
     "notes": {
       "type": "text"
@@ -27,6 +29,10 @@
     "product": {
       "via": "clays",
       "model": "products"
+    },
+    "status": {
+      "type": "boolean",
+      "default": true
     }
   }
 }

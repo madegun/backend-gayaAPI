@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "engobes",
+  "collectionName": "stain_oxides",
   "info": {
-    "name": "engobe",
-    "description": ""
+    "name": "stainOxide"
   },
   "options": {
     "increments": true,
@@ -20,22 +19,18 @@
       "type": "string"
     },
     "recipes": {
-      "type": "text",
-      "private": true
+      "type": "text"
     },
     "notes": {
       "type": "text"
     },
-    "histories": {
-      "type": "text"
-    },
-    "product": {
-      "via": "engobes",
-      "model": "products"
-    },
     "status": {
       "type": "boolean",
       "default": true
+    },
+    "product": {
+      "via": "stain_oxides",
+      "model": "products"
     }
   }
 }

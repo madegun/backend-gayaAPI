@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "engobes",
+  "collectionName": "lusters",
   "info": {
-    "name": "engobe",
-    "description": ""
+    "name": "luster"
   },
   "options": {
     "increments": true,
@@ -19,23 +18,19 @@
     "name": {
       "type": "string"
     },
-    "recipes": {
-      "type": "text",
-      "private": true
+    "descriptions": {
+      "type": "string"
     },
     "notes": {
       "type": "text"
     },
-    "histories": {
-      "type": "text"
-    },
-    "product": {
-      "via": "engobes",
-      "model": "products"
-    },
     "status": {
       "type": "boolean",
       "default": true
+    },
+    "product": {
+      "via": "lusters",
+      "model": "products"
     }
   }
 }

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/glazes",
+      "handler": "glaze.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/glazes/count",
+      "handler": "glaze.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/glazes/:id",
+      "handler": "glaze.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/glazes",
+      "handler": "glaze.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/glazes/:id",
+      "handler": "glaze.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/glazes/:id",
+      "handler": "glaze.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

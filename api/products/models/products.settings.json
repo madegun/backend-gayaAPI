@@ -103,8 +103,8 @@
       "dominant": true
     },
     "clays": {
-      "collection": "clay",
-      "via": "product"
+      "via": "product",
+      "collection": "clay"
     },
     "videos": {
       "via": "products",
@@ -135,8 +135,8 @@
       "type": "text"
     },
     "engobes": {
-      "collection": "engobe",
-      "via": "product"
+      "via": "product",
+      "collection": "engobe"
     },
     "estruders": {
       "collection": "estruder",
@@ -151,11 +151,26 @@
       "via": "product"
     },
     "castings": {
-      "collection": "casting",
-      "via": "product"
+      "via": "product",
+      "collection": "casting"
     },
     "material_supports": {
       "collection": "material-support",
+      "via": "product"
+    },
+    "color": {
+      "model": "color"
+    },
+    "stain_oxides": {
+      "collection": "stain-oxide",
+      "via": "product"
+    },
+    "glazes": {
+      "collection": "glaze",
+      "via": "product"
+    },
+    "lusters": {
+      "collection": "luster",
       "via": "product"
     }
   }

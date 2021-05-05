@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/stain-oxides",
+      "handler": "stain-oxide.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/stain-oxides/count",
+      "handler": "stain-oxide.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/stain-oxides/:id",
+      "handler": "stain-oxide.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/stain-oxides",
+      "handler": "stain-oxide.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/stain-oxides/:id",
+      "handler": "stain-oxide.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/stain-oxides/:id",
+      "handler": "stain-oxide.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
