@@ -1,0 +1,329 @@
+// 20210630120431
+// http://localhost:1337/api/v1/products
+
+[
+    {
+      "id": 1,
+      "code": "GA-178",
+      "dateDraw": "2020-07-01",
+      "deparment": "ROOM",
+      "infoSize": "UNIQUE SIZE",
+      "material": "PORCELAIN",
+      "buildTech": "THROWING",
+      "buildNotes": "Build notes details here....",
+      "rim": "ROUND",
+      "estruderNotes": "EstruderNotes goes hehe...",
+      "toolNotes": "ToolNotes goes here...",
+      "engobeNotes": "EngobeNotes here...",
+      "bisqTemp": "960",
+      "stainOxideNotes": "StainOxideNotes here...",
+      "glazeUpdateProduksiNotes": "UPDATE PRODUKSI: TEKNIK: 1. STONE GREY: DIPPING FULL, HATI - HATI BEKAS JEPITAN 2. TRANSPARENT: KUAS PADA BAGIAN RIM +/- 3X TEBAL: 1. STONE GREY: 0.20 2. TRANSPARENT: LW 1250",
+      "firingType": "OXIDATION",
+      "bodyKg": 1.8,
+      "lidKg": null,
+      "spoutKg": null,
+      "handleKg": null,
+      "baseKg": null,
+      "category": {
+        "id": 2,
+        "code": "01",
+        "name": "ENTREE PLATE",
+        "published_at": "2021-05-06T03:05:13.381Z",
+        "created_at": "2021-05-05T17:48:45.000Z",
+        "updated_at": "2021-05-06T03:05:13.396Z"
+      },
+      "galazeDataSampleNotes": "DATA SAMPLE: DOUBLE DIPPING : 1. FULL DIPPING IN MAT LIGHT GREY STONE GLAZE. 2. DIPPING RIM PART ONLY IN TRANSPARENT GLAZE.  ",
+      "ovenCode": "K2",
+      "ovenPosisi": "B DAN C",
+      "ovenCone": "CONE 10 JAM 6",
+      "firingNotes": "FiringNotes here...",
+      "color": {
+        "id": 1,
+        "code": "AA",
+        "name": "MATTE LIGHT GREY STONE, RIM TRANSPARENT DEC.",
+        "published_at": "2021-05-06T03:04:06.938Z",
+        "created_at": "2021-05-05T18:05:29.000Z",
+        "updated_at": "2021-05-06T03:04:06.946Z"
+      },
+      "published_at": "2021-05-06T02:57:00.921Z",
+      "created_at": "2021-05-06T02:56:21.089Z",
+      "updated_at": "2021-05-06T02:57:01.022Z",
+      "techDraw": {
+        "id": 1,
+        "name": "GA-718.jpg",
+        "alternativeText": "",
+        "caption": "",
+        "width": 600,
+        "height": 750,
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_GA-718.jpg",
+            "hash": "thumbnail_GA_718_dfcec9675c",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "width": 125,
+            "height": 156,
+            "size": 1.91,
+            "path": null,
+            "url": "/uploads/thumbnail_GA_718_dfcec9675c.jpg"
+          },
+          "small": {
+            "name": "small_GA-718.jpg",
+            "hash": "small_GA_718_dfcec9675c",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "width": 400,
+            "height": 500,
+            "size": 10.84,
+            "path": null,
+            "url": "/uploads/small_GA_718_dfcec9675c.jpg"
+          }
+        },
+        "hash": "GA_718_dfcec9675c",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 19.65,
+        "url": "/uploads/GA_718_dfcec9675c.jpg",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "created_at": "2021-05-06T02:46:48.639Z",
+        "updated_at": "2021-05-06T02:46:48.656Z"
+      },
+      "photo": [
+        {
+          "id": 2,
+          "name": "Entree Plate_200.jpg",
+          "alternativeText": "",
+          "caption": "",
+          "width": 200,
+          "height": 200,
+          "formats": {
+            "thumbnail": {
+              "name": "thumbnail_Entree Plate_200.jpg",
+              "hash": "thumbnail_Entree_Plate_200_276378ed94",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "width": 156,
+              "height": 156,
+              "size": 1.78,
+              "path": null,
+              "url": "/uploads/thumbnail_Entree_Plate_200_276378ed94.jpg"
+            }
+          },
+          "hash": "Entree_Plate_200_276378ed94",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 2.42,
+          "url": "/uploads/Entree_Plate_200_276378ed94.jpg",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "created_at": "2021-05-06T02:47:25.558Z",
+          "updated_at": "2021-05-06T02:47:25.578Z"
+        }
+      ],
+      "clients": [
+        {
+          "id": 1,
+          "code": "AB",
+          "name": "ANTONI BLANCO",
+          "published_at": "2021-05-06T03:04:27.952Z",
+          "created_at": "2021-05-05T18:02:32.000Z",
+          "updated_at": "2021-05-06T03:04:27.978Z"
+        }
+      ],
+      "clays": [
+        {
+          "id": 1,
+          "code": "CL08-001",
+          "name": "PORCELAIN",
+          "notes": null,
+          "product": 1,
+          "status": true,
+          "published_at": "2021-05-06T03:04:50.823Z",
+          "created_at": "2021-05-05T17:55:01.000Z",
+          "updated_at": "2021-05-06T03:04:50.850Z"
+        }
+      ],
+      "videos": [
+        {
+          "id": 1,
+          "code": "MV-001",
+          "title": "THROWING PLATE BIG",
+          "descriptions": null,
+          "videUrl": "https://youtu.be/cPrsM-YkeL4",
+          "published_at": "2021-05-06T02:59:38.877Z",
+          "created_at": "2021-05-05T18:26:43.000Z",
+          "updated_at": "2021-05-06T02:59:38.908Z",
+          "video": null
+        }
+      ],
+      "engobes": [
+        {
+          "id": 3,
+          "code": "EN08-003",
+          "name": "RAKU + 50% SAND (KASAR)",
+          "notes": null,
+          "histories": null,
+          "product": 1,
+          "status": null,
+          "published_at": "2021-05-06T03:03:54.031Z",
+          "created_at": "2021-05-05T18:07:16.000Z",
+          "updated_at": "2021-05-06T03:03:54.059Z"
+        }
+      ],
+      "estruders": [
+        {
+          "id": 3,
+          "code": "ES08-003",
+          "name": "ESTRUDER - 003",
+          "notes": null,
+          "product": 1,
+          "published_at": "2021-05-06T03:03:29.396Z",
+          "created_at": "2021-05-05T18:08:56.000Z",
+          "updated_at": "2021-05-06T03:03:29.439Z",
+          "templateEst": null,
+          "photo": [
+            
+          ]
+        },
+        {
+          "id": 5,
+          "code": "ES08-005",
+          "name": "ESTRUDER - 005",
+          "notes": null,
+          "product": 1,
+          "published_at": "2021-05-06T03:03:35.942Z",
+          "created_at": "2021-05-05T18:08:57.000Z",
+          "updated_at": "2021-05-06T03:03:35.976Z",
+          "templateEst": null,
+          "photo": [
+            
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "id": 2,
+          "code": "TL09-002",
+          "name": "IRON RULER",
+          "notes": null,
+          "product": 1,
+          "published_at": "2021-05-06T02:59:57.375Z",
+          "created_at": "2021-05-05T18:24:45.000Z",
+          "updated_at": "2021-05-06T02:59:57.404Z",
+          "photo": [
+            
+          ]
+        },
+        {
+          "id": 3,
+          "code": "TL09-003",
+          "name": "HOLE CUTTER 3mm",
+          "notes": null,
+          "product": 1,
+          "published_at": "2021-05-06T03:00:01.856Z",
+          "created_at": "2021-05-05T18:24:45.000Z",
+          "updated_at": "2021-05-06T03:00:01.886Z",
+          "photo": [
+            
+          ]
+        }
+      ],
+      "molds": [
+        {
+          "id": 2,
+          "code": "ML14-029 ",
+          "name": "TEMPLATE REDA AMALOU DECORATIVE PLATE SMALL GG-318",
+          "notes": null,
+          "product": 1,
+          "published_at": "2021-05-06T03:02:15.368Z",
+          "created_at": "2021-05-05T18:37:16.000Z",
+          "updated_at": "2021-05-06T03:02:15.402Z",
+          "photo": null
+        }
+      ],
+      "castings": [
+        {
+          "id": 3,
+          "code": "CA08-002",
+          "name": "CYLINDER_01 - M",
+          "notes": null,
+          "product": 1,
+          "status": null,
+          "published_at": "2021-05-06T03:05:36.222Z",
+          "created_at": "2021-05-05T17:50:52.000Z",
+          "updated_at": "2021-05-06T03:05:36.329Z",
+          "photo": null
+        }
+      ],
+      "material_supports": [
+        
+      ],
+      "stain_oxides": [
+        {
+          "id": 3,
+          "code": "SX08-003",
+          "name": "BLUE DECORATION (C.410)",
+          "recipes": null,
+          "notes": null,
+          "status": null,
+          "product": 1,
+          "published_at": "2021-05-06T03:00:27.317Z",
+          "created_at": "2021-05-05T18:22:36.000Z",
+          "updated_at": "2021-05-06T03:00:27.343Z"
+        }
+      ],
+      "glazes": [
+        {
+          "id": 1,
+          "code": "GS08-001",
+          "name": "TRANSPARENT",
+          "notes": null,
+          "status": null,
+          "product": 1,
+          "published_at": "2021-05-06T03:03:01.419Z",
+          "created_at": "2021-05-05T18:10:15.000Z",
+          "updated_at": "2021-05-06T03:03:01.468Z"
+        },
+        {
+          "id": 2,
+          "code": "GS08-002",
+          "name": "LIGHT GREY STONE_4 discontinued",
+          "notes": null,
+          "status": null,
+          "product": 1,
+          "published_at": "2021-05-06T03:03:05.761Z",
+          "created_at": "2021-05-05T18:10:15.000Z",
+          "updated_at": "2021-05-06T03:03:05.787Z"
+        }
+      ],
+      "lusters": [
+        {
+          "id": 2,
+          "code": "LS12-002",
+          "name": "LUSTRE PLATINUM ACQUOSO",
+          "descriptions": null,
+          "notes": null,
+          "status": null,
+          "product": 1,
+          "published_at": "2021-05-06T03:02:43.629Z",
+          "created_at": "2021-05-05T18:20:40.000Z",
+          "updated_at": "2021-05-06T03:02:43.658Z"
+        },
+        {
+          "id": 4,
+          "code": "LS14-001",
+          "name": "LUSTRE GOLD",
+          "descriptions": null,
+          "notes": null,
+          "status": null,
+          "product": 1,
+          "published_at": "2021-05-06T03:02:50.983Z",
+          "created_at": "2021-05-05T18:21:09.000Z",
+          "updated_at": "2021-05-06T03:02:51.065Z"
+        }
+      ]
+    }
+  ]
